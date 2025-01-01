@@ -1,0 +1,1 @@
+This is the content of File2.txt nothing more just txt things no code random stuff to read and do operations on files using C

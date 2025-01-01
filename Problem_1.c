@@ -6,7 +6,7 @@ int main(){
 
     FILE *fp1, *fp2;
     char ch;
-    fp1 = fopen("./assets/file1.txt","r");
+    fp1 = fopen("./assets/File1.txt","r");
     fp2 = fopen("./system_generated_files/Problem1.txt","w");
     if (fp1 == NULL || fp2 == NULL){
         printf("Error in opening file\n");
