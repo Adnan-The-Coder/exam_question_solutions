@@ -1,23 +1,19 @@
+// program to calculate factorial of a number using recursion
 #include <stdio.h>
-#include <stdlib.h>
+
+int factorial(int n);
 
 int main(){
-
-    FILE *fp1, *fp2;
-    char ch;
-    fp1 = fopen("./assets/File1.txt","r");
-    fp2 = fopen("./system_generated_files/Problem1.txt","w");
-    if (fp1 == NULL || fp2 == NULL){
-        printf("Eror in opening file\n");
-        exit(1);
-    }
-
-    while((ch=fgetc(fp1))!= EOF){
-        fputc(ch,fp2);
-    }
-    fclose(fp1);
-    fclose(fp2);
-
+    int n;
+    printf("Enter a number: ");
+    scanf("%d",&n);
+    printf("Factorial of %d = %d\n", n, factorial(n));
     return 0;
 }
 
+int factorial(int n){
+    if (n>=1)
+        return n*factorial(n-1);
+    else
+        return 1;
+}
