@@ -10,11 +10,14 @@ int main(){
     fp2 = fopen("./assets/File2.txt","r");
     fp3 = fopen("./system_generated_files/Problem2.txt","w");
     
-    while((ch = fgetc(fp1)!=EOF)){
-        fputc(ch,fp3);
+    while(!feof(fp1)){
+        fscanf(fp1,"%c",&ch);
+        fprintf(fp3,"%c",ch);
+
     }
-    while ((ch = fgetc(fp2)!=EOF)){
-        fputc(ch,fp3);
+    while (!feof(fp2)){
+        fscanf(fp2,"%c",&ch);
+        fprintf(fp3,"%c",ch);
     }
     fclose(fp1);
     fclose(fp2);
