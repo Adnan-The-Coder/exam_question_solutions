@@ -1,5 +1,6 @@
 # Question Set Solutions 
 
+The solutions provided here are both tested on Windows and Linux system Problem_13 uses gets fgets usage on same problem is in branch linux
 
 The [Question Set](PPS_LAB_EXTERNAL_QUESTIONS.pdf) is in the pdf and the solutions are here in sequence
 
