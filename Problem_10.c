@@ -1,3 +1,4 @@
+// Program to Compute Matrix Addition and Multiplication using Dynamic Memory Allocation
 #include<stdio.h>
 #include<stdlib.h>
 
