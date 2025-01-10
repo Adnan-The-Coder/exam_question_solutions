@@ -16,7 +16,7 @@ int main(){
     struct student s[n];
 
     FILE *fp;
-    fp = fopen("./system_generated_files/Problem5.txt","w");
+    fp = fopen("./system_generated_files/Problem5.txt","w");// put filename instead of path as per ur convenience 
 
     if(fp == NULL){
         printf("Error in opening File\n");
