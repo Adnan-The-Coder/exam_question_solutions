@@ -1,0 +1,21 @@
+Employee 1 Details
+Name: Osman
+ID: 1
+Basic Pay: 40000.000000
+DA: 20800.000000
+Gross Salary: 60800.000000
+-----------------------------
+Employee 2 Details
+Name: Farhan
+ID: 2
+Basic Pay: 50000.000000
+DA: 26000.000000
+Gross Salary: 76000.000000
+-----------------------------
+Employee 3 Details
+Name: Sohaib
+ID: 3
+Basic Pay: 10000.000000
+DA: 5200.000000
+Gross Salary: 15200.000000
+-----------------------------
