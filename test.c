@@ -1,19 +1,35 @@
-// program to calculate factorial of a number using recursion
 #include <stdio.h>
 
-int factorial(int n);
-
-int main(){
-    int n;
-    printf("Enter a number: ");
-    scanf("%d",&n);
-    printf("Factorial of %d = %d\n", n, factorial(n));
-    return 0;
+void printBinary(int n) {
+    int i;
+    printf("Binary: ");
+    for(i = 31; i >= 0; i--) {
+        int k = (n >> i) & 1;  // Extract the ith bit
+        printf("%d", k);
+        if (i % 4 == 0)  // Print a space every 4 bits for better readability
+            printf(" ");
+    }
+    printf("\n");
 }
 
-int factorial(int n){
-    if (n>=1)
-        return n*factorial(n-1);
-    else
-        return 1;
+int main() {
+    int num;
+
+    // Input from user
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    // Decimal to other bases
+    printf("\nDecimal: %d\n", num);
+
+    // Decimal to Binary
+    printBinary(num);
+
+    // Decimal to Octal
+    printf("Octal: %o\n", num);
+
+    // Decimal to Hexadecimal
+    printf("Hexadecimal: %X\n", num);
+
+    return 0;
 }
