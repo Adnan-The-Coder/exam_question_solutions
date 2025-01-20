@@ -30,6 +30,7 @@ Problems
 - Problem_22 ->  Calculator using Switch
 - Problem_23 ->  Roots of Quadratic
 - Problem_24 ->  Sum of Digits and count of Digits
+- Problem_25 ->  Decimal to Hexadecimal
 
 
 more coming soon 😪
