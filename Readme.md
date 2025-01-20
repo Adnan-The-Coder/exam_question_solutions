@@ -27,7 +27,9 @@ Problems
 - Problem_19 ->  Binary Search Program using recursion
 - Problem_20 ->  Pascals Triangle
 - Problem_21 ->  Magic Number
-- Problem_22 ->  Pascals Triangle
+- Problem_22 ->  Calculator using Switch
+- Problem_23 ->  Roots of Quadratic
+- Problem_24 ->  Sum of Digits and count of Digits
 
 
 more coming soon 😪
