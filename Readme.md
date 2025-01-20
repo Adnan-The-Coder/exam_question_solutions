@@ -20,10 +20,14 @@ Problems
 - Problem_12 ->  Program to implement string function without using library function
 - Problem_13 ->  program to implement string palindrome
 - Problem_14 ->  Program to find min and max of the array
-- Problem_15 ->  Factorial Program
-- Problem_16 ->  Fibonacci Program
-- Problem_17 ->  GCD Program
-- Problem_18 ->  Linear Program
+- Problem_15 ->  Factorial Program using recursion
+- Problem_16 ->  Fibonacci Program using recursion
+- Problem_17 ->  GCD Program using recursion
+- Problem_18 ->  Linear Search Program using recursion
+- Problem_19 ->  Binary Search Program using recursion
+- Problem_20 ->  Pascals Triangle
+- Problem_21 ->  Magic Number
+- Problem_22 ->  Pascals Triangle
 
 
 more coming soon 😪
